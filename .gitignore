@@ -1,6 +1,15 @@
+# macOS system files
+.DS_Store
+
+# Node.js
+frontend/node_modules/
+frontend/package-lock.json
+frontend/dist/
+
+# Symfony
 /vendor/
-/node_modules/
-/.env.local
-/.env
-/public/build/
+.env
+.env.local
 /var/
+/public/build/
+/config/packages/nelmio_cors.yaml

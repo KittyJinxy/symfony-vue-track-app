@@ -1,12 +1,10 @@
 <template>
   <div>
     <h1>Track Manager</h1>
-    <p>Start coding...</p>
+    <TrackList />
   </div>
 </template>
 
 <script setup>
+import TrackList from "@/components/TrackList.vue";
 </script>
-
-<style scoped>
-</style>
