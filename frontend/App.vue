@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Track Manager</h1>
+    <h1 class="text-3xl font-bold text-green-500">Hello Tailwind 3.3!</h1>
     <TrackList />
   </div>
 </template>
