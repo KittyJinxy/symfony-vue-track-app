@@ -1,0 +1,5 @@
+# Symfony
+/vendor/
+.env.local
+/var/
+/public/build/
