@@ -15,7 +15,6 @@
   <img src="https://img.shields.io/badge/PHP-8-informational" alt="PHP" />
 </p>
 
-
 ---
 
 # 🎵 Track Manager App
@@ -28,10 +27,10 @@ A modern full-stack music track manager built with **Symfony 6** and **Vue.js 3*
 
 ## ⚙️ Tech Stack
 
-* **Backend:** Symfony 6.4.22 · PHP 8.3.6 · Doctrine ORM · RESTful API
-* **Frontend:** Vue.js 3.3.0 · Vite 4 · Tailwind CSS
-* **UX:** SweetAlert2 · Axios
-* **Database:** MySQL
+- **Backend:** Symfony 6.4.22 · PHP 8.3.6 · Doctrine ORM · RESTful API
+- **Frontend:** Vue.js 3.3.0 · Vite 4 · Tailwind CSS
+- **UX:** SweetAlert2 · Axios
+- **Database:** MySQL
 
 ---
 
@@ -39,25 +38,31 @@ A modern full-stack music track manager built with **Symfony 6** and **Vue.js 3*
 
 ### 🛠 Installation
 
-1. Install PHP dependencies:
+1. Navigate to the backend folder:
+
+   ```bash
+   cd backend
+   ```
+
+2. Install PHP dependencies:
 
    ```bash
    composer install
    ```
 
-2. Configure environment:
+3. Configure environment:
 
-   * Copy `.env` to `.env.local`
-   * Set your database credentials
+   - Copy `.env` to `.env.local`
+   - Set your database credentials
 
-3. Run database setup:
+4. Run database setup:
 
    ```bash
    php bin/console doctrine:database:create
    php bin/console doctrine:migrations:migrate
    ```
 
-4. Start the dev server:
+5. Start the dev server:
 
    ```bash
    symfony serve
@@ -105,14 +110,13 @@ A modern full-stack music track manager built with **Symfony 6** and **Vue.js 3*
 
 ## ✨ Features
 
-* 🎧 Track list display with edit and create form
-* 🚀 Fast bundling with Vite
-* 🎨 Responsive design with Tailwind CSS
-* 🔔 User-friendly alerts via SweetAlert2
+- 🎧 Track list display with edit and create form
+- 🚀 Fast bundling with Vite
+- 🎨 Responsive design with Tailwind CSS
+- 🔔 User-friendly alerts via SweetAlert2
 
 ---
 
 ## 🧑‍💻 Author
 
-**Marie** — *Built for a coding challenge*
-
+**Marie** — _Built for a coding challenge_
